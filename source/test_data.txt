@@ -1,0 +1,25 @@
+下zap命令的request/response
+Request XML:
+<ajax-request action:"docmd" comp="zapd" updater="rid.0.8147907605668812" xcmd="wc">
+  <xcmd cmd="wc" tool="zap-down" client="172.18.133.4" zap-type="udp" syspmtu="1500"/>
+</ajax-request>
+
+Response XML:
+<ajax-response>
+  <response type="object" id="rid.0.8147907605668812">
+    <xmsg type="0" msg="OK" lmsg="OK" wcid="1487218795" />
+  </response>
+</ajax-response>
+
+获取测试结果的request/response, response里的etf等于0时表示测试结束
+Request XML:
+<ajax-request action:"docmd" comp="zapd" updater="rid.0.36408649262444404" xcmd="wc-poll" timeout="-1">
+  <xcmd cmd="wc-poll" wcid="1487218795"/>
+</ajax-request>
+
+Response XML:
+<ajax-response>
+  <response type="object" id="rid.0.36408649262444404">
+    <xmsg type="0" msg="OK" wcid="" lmsg="OK" id="12" uplink="150" downlink="354100" latency="15" pkt-loss="0" etf="7" />
+  </response>
+</ajax-response>
