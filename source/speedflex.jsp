@@ -1,4 +1,3 @@
-<script src="/scripts/gauge.js" type="text/javascript"></script>
 
 <style type="text/css">
     #speedflex-test .pop_box {width:auto; color:#6e6f6f;overflow:hidden;margin:0 auto; background: #fff;padding:0px 15px;}
@@ -61,7 +60,3 @@
         </div>
     </div>
 </div>
-
-<%
-var remoteAddress = request.remoteAddress;
-%>
