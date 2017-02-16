@@ -1,4 +1,4 @@
-ÏÂzapÃüÁîµÄrequest/response
+ä¸‹zapå‘½ä»¤çš„request/response
 Request XML:
 <ajax-request action:"docmd" comp="zapd" updater="rid.0.8147907605668812" xcmd="wc">
   <xcmd cmd="wc" tool="zap-down" client="172.18.133.4" zap-type="udp" syspmtu="1500"/>
@@ -11,7 +11,8 @@ Response XML:
   </response>
 </ajax-response>
 
-»ñÈ¡²âÊÔ½á¹ûµÄrequest/response, responseÀïµÄetfµÈÓÚ0Ê±±íÊ¾²âÊÔ½áÊø
+
+è·å–æµ‹è¯•ç»“æœçš„request/response, responseé‡Œçš„etfç­‰äº0æ—¶è¡¨ç¤ºæµ‹è¯•ç»“æŸ
 Request XML:
 <ajax-request action:"docmd" comp="zapd" updater="rid.0.36408649262444404" xcmd="wc-poll" timeout="-1">
   <xcmd cmd="wc-poll" wcid="1487218795"/>
